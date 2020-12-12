@@ -9,7 +9,7 @@
         "test": "jest",
         "eslint": "eslint ./src/*.{js,jsx}",
         "build": "webpack --mode production",
-        "test:e2e": "cypress open"
+        "test:e2e": "cypress run --spec ./cypress/integration/pokemon.js"
     },
     "repository": {
         "type": "git",
