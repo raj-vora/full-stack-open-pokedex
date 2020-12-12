@@ -11,10 +11,10 @@ jobs:
     steps:
       - name: Say hello
         run: |
-          echo "Hello World!"
-      -name : Directory content
+        echo "Hello World!"
+      - name : Directory content
         run: |
-          ls -l
+        ls -l
       - name: Now it is
         run: |
-          date
+        date
