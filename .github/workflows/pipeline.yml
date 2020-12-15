@@ -34,3 +34,4 @@ jobs:
           heroku_email: "raj.jv@somaiya.edu"
           healthcheck: https://rajvora-pokedex.herokuapp.com/health
           checkstring: ok
+          rollbackonhealthcheckfailed: true
